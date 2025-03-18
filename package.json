@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "mkdir -p dist && cp -r index.html styles.css script.js assets dist/"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

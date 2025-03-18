@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiteja - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Saiteja</h1>
+            <div class="nav-items">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="bx bx-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1 class="animate-fade-in typing-animation">Hey there! I'm Saiteja</h1>
+            <p class="animate-fade-in">Computer Science & Cloud Computing Graduate</p>
+            <a href="#contact" class="cta-button animate-fade-in floating">
+                Get in Touch
+                <i class="bx bx-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a recent graduate with a Bachelor of Science in Computer Science and Cloud Computing from Loyola Academy. My academic journey has equipped me with a strong foundation in programming, software development, and cloud technologies, and I'm passionate about leveraging these skills to build innovative solutions.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress skill-python"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress skill-java"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>C</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress skill-c"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress skill-html"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>MySQL</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress skill-mysql"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Data Analytics</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress skill-analytics"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <i class="bx bx-bar-chart-alt-2"></i>
+                    <h3>Data Analytics</h3>
+                    <p>Udemy</p>
+                </div>
+                <div class="cert-card">
+                    <i class="bx bxl-python"></i>
+                    <h3>Python</h3>
+                    <p>Mind Luster</p>
+                </div>
+                <div class="cert-card">
+                    <i class="bx bx-cloud"></i>
+                    <h3>AWS Workshop</h3>
+                    <p>AWS</p>
+                </div>
+                <div class="cert-card">
+                    <i class="bx bx-shield-quarter"></i>
+                    <h3>Ethical Hacking and Cyber Security</h3>
+                    <p>Supraja Technologies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-grid">
+                <a href="mailto:teja22668@gmail.com" class="contact-card">
+                    <i class="bx bx-envelope"></i>
+                    <span>teja22668@gmail.com</span>
+                </a>
+                <a href="tel:+919908282632" class="contact-card">
+                    <i class="bx bx-phone"></i>
+                    <span>+91 9908282632</span>
+                </a>
+                <a href="https://www.linkedin.com/in/saitejch09" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <i class="bx bxl-linkedin"></i>
+                    <span>LinkedIn</span>
+                    <i class="bx bx-link-external"></i>
+                </a>
+                <a href="https://github.com/saitejch" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <i class="bx bxl-github"></i>
+                    <span>GitHub</span>
+                    <i class="bx bx-link-external"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Saiteja. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
